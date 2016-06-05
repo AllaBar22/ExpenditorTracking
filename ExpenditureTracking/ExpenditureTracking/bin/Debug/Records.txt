@@ -1,0 +1,15 @@
+AAA
+V
+100
+BBB
+C
+0
+CCC
+A
+0
+FFF
+H
+333
+SDF
+RRR
+12.34

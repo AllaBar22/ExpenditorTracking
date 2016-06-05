@@ -1,0 +1,14 @@
+The application window contains three button: Add new record, Clear all records, Calculate. 
+Add new record button allows to add: person, service, amount. At first you should to complete three fields. 
+Fields name and service must contain letters only. Field amount must contain numbers only. The fields shouldn't be empty. 
+Then push Add new record button. After that you will see a message box with success message. 
+If you have at least one record, you may calculate. Otherwise you will see error message.
+The application window contains four tables: List of payment, Expenses, Result, Transactions.
+After pushing Calculate button you will see the result. 
+List of payment table contains information about names, services and amounts.
+Expenses table contains information about summary values of expenses each person.
+Result table contains information about the payout of each person. 
+Transaction table contains information about the money transaction between the persons.
+Also aplication window contains information about total and average amount.
+Clear all records button allows to delete all of records.
+If you close the application, information about payment of each person will be saved.

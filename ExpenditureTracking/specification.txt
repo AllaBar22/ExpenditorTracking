@@ -1,0 +1,15 @@
+This application was created for expenditure tracking. 
+Application allows to enter name, service and amount. Name and service fields may contain letters only. Amount field may contain numbers only. 
+Also application allows to see records in the table of payment. 
+The application makes some calculations. It counts total and average amount. Also it counts expenses of each person and displays it to the table of expenses.
+The application calculates transactions to be made: 
+1. It counts the differences between average and expenses (DBAE) of each person.  
+2. If total amount not divided equally, then expenses of person will be greater or less by one.
+3. It checks equal values with different sign. It will be such transaction. It helps to minimize count of transactions.
+4. The application creates list of transactions: 
+	* DBAE of first person compare with DBAE of others
+	* if DBAE values of two persons are equals with different sign, then calculates sum of pay. DBAE of one of the two persons will be equal zero. 
+		DBAE of the second person will be equal differences of two absolute values of DBAE. It will be one transaction. 
+Application saves records after close. It is able to collect information and later to calculate. 
+Also the application allows to start new session with new records. It is possible to delete all records.
+Application has userfriendly interface. It contains success and error messages. Error messages contain information about the problem and solving.
